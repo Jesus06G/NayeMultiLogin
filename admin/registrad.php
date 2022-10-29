@@ -10,12 +10,10 @@ die("Problemas con la conexión");
       mysqli_close($conexion);
     
       echo "Ingreso Correctamente.";
+      header("location: admin_portada.php");
+
       ?>
       <?php
-$conexion = mysqli_connect("buojhg5y2w2ultallhhc-mysql.services.clever-cloud.com", "uugunhd73cgyw7jr", "eZ2WtjBrsUn9iloTHA2x", "buojhg5y2w2ultallhhc") or
-die("Problemas con la conexión");
-
-header("location: admin_portada.php");
 
   $registros = mysqli_query($conexion, "select * from mainlogin") or
     die("Problemas en el select:" . mysqli_error($conexion));  ?>
