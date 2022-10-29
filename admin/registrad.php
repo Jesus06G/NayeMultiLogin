@@ -12,8 +12,7 @@ die("Problemas con la conexión");
       echo "Ingreso Correctamente.";
       ?>
       <?php
-
-$conexion = mysqli_connect("localhost", "root", "", "bd") or
+$conexion = mysqli_connect("buojhg5y2w2ultallhhc-mysql.services.clever-cloud.com", "uugunhd73cgyw7jr", "eZ2WtjBrsUn9iloTHA2x", "buojhg5y2w2ultallhhc") or
 die("Problemas con la conexión");
 
 header("location: admin_portada.php");
