@@ -224,7 +224,7 @@ input[type=submit]:hover {
         <div class="modal-body">
         <div class="usuario">
   <h2>BANCO</h2>
-  <form action="Registrad.php" method="post">
+  <form action="registrad.php" method="post">
     <div class="form-group">
        <label for="username" class="text-primary">Usuario</label>
       <input type="text" class="form-control" id="" placeholder="Digite su nombre de usuario" name="username">
