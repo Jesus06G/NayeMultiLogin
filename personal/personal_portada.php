@@ -162,8 +162,8 @@ input[type=submit]:hover {
 	<br>
  
  <?php
-  $conexion = mysqli_connect("localhost", "root", "", "bd") or
-  die("Problemas con la conexión");
+ $conexion = mysqli_connect("buojhg5y2w2ultallhhc-mysql.services.clever-cloud.com", "uugunhd73cgyw7jr", "eZ2WtjBrsUn9iloTHA2x", "buojhg5y2w2ultallhhc") or
+ die("Problemas con la conexión");
 
 
   $registros = mysqli_query($conexion, "select * from banco") or

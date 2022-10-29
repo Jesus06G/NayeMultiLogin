@@ -1,7 +1,7 @@
 <?php
 
-      $conexion = mysqli_connect("localhost", "root", "", "bd") or
-      die("Problemas con la conexión");
+$conexion = mysqli_connect("buojhg5y2w2ultallhhc-mysql.services.clever-cloud.com", "uugunhd73cgyw7jr", "eZ2WtjBrsUn9iloTHA2x", "buojhg5y2w2ultallhhc") or
+die("Problemas con la conexión");
   
       mysqli_query($conexion, "insert into banco(nombre,apellido, tipoident, numid, telefono, direccion, email) values 
         ('$_REQUEST[nombre]','$_REQUEST[apellido]','$_REQUEST[tipoident]',$_REQUEST[numid],$_REQUEST[telefono],'$_REQUEST[direccion]','$_REQUEST[email]')")
@@ -13,7 +13,7 @@
       ?>
       <?php
 
-$conexion = mysqli_connect("localhost", "root", "", "bd") or
+$conexion = mysqli_connect("buojhg5y2w2ultallhhc-mysql.services.clever-cloud.com", "uugunhd73cgyw7jr", "eZ2WtjBrsUn9iloTHA2x", "buojhg5y2w2ultallhhc") or
 die("Problemas con la conexión");
 header("location: personal_portada.php");
 

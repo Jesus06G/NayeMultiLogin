@@ -1,6 +1,6 @@
 
 <?php
-  $conexion = mysqli_connect("localhost", "root", "", "bd") or
+  $conexion = mysqli_connect("buojhg5y2w2ultallhhc-mysql.services.clever-cloud.com", "uugunhd73cgyw7jr", "eZ2WtjBrsUn9iloTHA2x", "buojhg5y2w2ultallhhc") or
     die("Problemas con la conexión");
 
   $registros = mysqli_query($conexion, "select id from mainlogin
